@@ -13,4 +13,4 @@ db=SQLAlchemy(app)
 bcrypt=Bcrypt()
 
 from flaskblog import routes
-
+       

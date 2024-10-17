@@ -3,7 +3,7 @@ from flask import render_template,url_for,flash,redirect
 from flaskblog.forms import RegistrationForm,LoginForm     # own module
 from flaskblog import app,db,bcrypt
 from flaskblog.models import User,Post
-from flask_login import current_user,login_user
+from flask_login import current_user,login_user  
 
 posts=[
     {
