@@ -8,7 +8,7 @@ from flask_login import current_user,login_user
 posts=[
     {
         'author':'Biksah',
-        'title':'blog post 1',
+        'title':'blog post 1',  
         'content':'Movie Recommend',
         'date_posted':'April 30, 2022'
     },

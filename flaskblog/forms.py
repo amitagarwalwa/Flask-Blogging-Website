@@ -11,7 +11,7 @@ class RegistrationForm(FlaskForm):
     submit=SubmitField('Sign Up')
 
 
-   
+    
 
 
 class LoginForm(FlaskForm):
@@ -22,5 +22,5 @@ class LoginForm(FlaskForm):
     submit=SubmitField('Login')
 
 
-
+ 
        
