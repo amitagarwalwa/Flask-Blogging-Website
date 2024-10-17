@@ -1,0 +1,105 @@
+body {
+    background: #f0f4f8;
+    color: #2c3e50;
+    margin-top: 5rem;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #34495e;
+}
+
+.bg-steel {
+    background-color: #5950af;
+}
+
+.site-header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #ecf0f1;
+    list-style-type: none;     
+    padding: 10px 20px;     
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);transition: ease-in-out 0.2;
+    background-color: #7168c7;     
+    transform:scale(1.05);     
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 600;
+    border-bottom: 2px solid #ffffff;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 20px 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    color: #34495e;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+a.article-title:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.article-content {
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+.article-img {
+    height: 75px;
+    width: 75px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-metadata {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    color: #7f8c8d;
+}
+
+.article-metadata a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.article-svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 140px;
+    width: 140px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-heading {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
